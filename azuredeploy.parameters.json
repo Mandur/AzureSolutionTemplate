@@ -12,9 +12,12 @@
             "value": "false"
         },
         "timeSeriesInsightDeploy": {
-            "value": "true"
+            "value": "false"
         },
         "alarmDeploy": {
+            "value": "false"
+        },
+        "dashboardDeploy":{
             "value": "true"
         }
     }
