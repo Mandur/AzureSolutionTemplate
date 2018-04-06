@@ -479,7 +479,8 @@
             "type": "Microsoft.Resources/deployments",
             "apiVersion": "2015-01-01",
             "dependsOn": [
-                "[resourceId('Microsoft.Web/sites/sourcecontrols', variables('functionAppName'),'web')]"
+                "[resourceId('Microsoft.Web/sites/sourcecontrols', variables('functionAppName'),'web')]",
+                "[resourceId('Microsoft.Resources/deployments','LoriotDeploy')]"
             ],
             "properties": {
                 "mode": "Incremental",
